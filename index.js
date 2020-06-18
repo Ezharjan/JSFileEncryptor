@@ -3,9 +3,9 @@ const { Console } = require('console');
 var key = 'My Super Secret Key';
 
 //点击导入按钮,使files触发点击事件,然后完成读取文件的操作
-// $("#fileImport").click(function() {
-//     $("#files").click();
-// });
+$("#fileImport").click(function() {
+    $("#files").click();
+});
 
 $("#encryptLocalFile").click(function() {
     $("#encrypt-files").click();

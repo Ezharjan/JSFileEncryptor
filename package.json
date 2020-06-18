@@ -6,7 +6,7 @@
     "scripts": {
         "start": "electron .",
         "serve": "http-server -c-1",
-        "pack": "electron-packager . myClient --win --out ../myClient --arch=x64 --app-version=0.0.1 --electron-version=2.0.0"
+        "pack": "electron-packager . my-encryptor --win --out ../my-encryptor --arch=x64 --app-version=0.0.1 --electron-version=2.0.0"
     },
     "author": "Alexander Ezharjan",
     "license": "ISC",
